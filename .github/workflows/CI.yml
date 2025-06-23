@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  regionService:
-    name: Region Service
+  ContactCosumer:
+    name: Contact Consumer
     runs-on: ubuntu-latest
 
     steps:
