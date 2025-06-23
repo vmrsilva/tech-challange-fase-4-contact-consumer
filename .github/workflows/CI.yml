@@ -11,7 +11,7 @@ on:
 
 jobs:
   ContactCosumer:
-    name: Contact Consumer
+    name: Contact Consumer Worker
     runs-on: ubuntu-latest
 
     steps:
