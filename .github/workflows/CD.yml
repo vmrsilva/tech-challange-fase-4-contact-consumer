@@ -41,4 +41,4 @@ jobs:
         context: ./
         file: ./TechChallange.Contact.Consumer/Dockerfile
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/techchallange-contact-consumer:latest, ${{ secrets.DOCKERHUB_USERNAME }}/tech-challenge-contact:${{ github.run_number }}
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/techchallange-fase4-contact-consumer:latest, ${{ secrets.DOCKERHUB_USERNAME }}/tech-challenge-contact:${{ github.run_number }}
